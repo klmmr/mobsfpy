@@ -34,6 +34,5 @@ setuptools.setup(
         'Topic :: Security',
         'Topic :: Utilities',
     ],
-    python_requires='>=3.7',
     keywords='mobsf api cli android ios mobile security analysis',
 )
