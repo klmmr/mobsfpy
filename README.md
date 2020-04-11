@@ -84,5 +84,5 @@ This software is licensed under MIT license. For more information see `LICENSE` 
 
 ## Acknowledgements
 
-* @ajinabraham and [many others](https://github.com/MobSF/Mobile-Security-Framework-MobSF#honorable-contributors) - For creating MobSF.
+* [Ajin Abraham (@ajinabraham)](https://github.com/ajinabraham) and [many others](https://github.com/MobSF/Mobile-Security-Framework-MobSF#honorable-contributors) - For creating MobSF.
 * This package is inspired by [this gist](https://gist.github.com/ajinabraham/0f5de3b0c7b7d3665e54740b9f536d81).
