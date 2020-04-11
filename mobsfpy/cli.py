@@ -100,8 +100,8 @@ def main():
                                        description='This CLI supports a number of different subcommands which have to '
                                                    'be used.',
                                        help='Available subcommands',
-                                       dest='command',
-                                       required=True)
+                                       dest='command')
+    subparsers.required = True
 
     parser_upload = subparsers.add_parser('upload', help='Upload a file to MobSF')
     parser_upload.add_argument('--noscan', action='store_true', help='Execute no scan after upload')
@@ -126,8 +126,8 @@ def main():
     subparsers_report = parser_report.add_subparsers(title='Type',
                                                      description='The format which should be used for the report',
                                                      help='Type of report',
-                                                     dest='report_type',
-                                                     required=True)
+                                                     dest='report_type')
+    subparsers_report.required = True
 
     parser_report_json = subparsers_report.add_parser('json')
     parser_report_json.add_argument('--output', '-o', type=str, const=True, nargs='?',
