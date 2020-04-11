@@ -152,7 +152,6 @@ def main():
     parser_delete.set_defaults(func=__cli_delete)
 
     args = parser.parse_args()
-    print(args)
 
     if not args.apikey:
         parser.print_usage()
