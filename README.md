@@ -2,7 +2,7 @@
 
 _Python CLI and wrapper for the Mobile Security Framework (MobSF) REST-API_ 
 
-[Mobile Security Framework (MobSF)](https://github.com/MobSF/Mobile-Security-Framework-MobSF) is a automated framework
+[Mobile Security Framework (MobSF)](https://github.com/MobSF/Mobile-Security-Framework-MobSF) is an automated framework
 for security analysis of mobile apps.
 It offers also a REST API which allows much flexibility.
 The idea of this package is to allow for easier handling of MobSF when it is used on the command line.
