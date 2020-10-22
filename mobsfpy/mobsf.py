@@ -14,7 +14,7 @@ class MobSF:
     """Represents a MobSF instance."""
 
     def __init__(self, apikey, server=None):
-        self.__server = server if server else DEFAULT_SERVER
+        self.__server = server.rstrip('/') if server else DEFAULT_SERVER
         self.__apikey = apikey
 
     @property
